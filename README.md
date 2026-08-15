@@ -150,4 +150,4 @@ node --input-type=module -e 'import { name, inject, apply } from "dsh-foundry"; 
 
 - **许可证**：MIT（见 `LICENSE`）。
 - **安全报告**：请勿公开披露漏洞。发现安全问题请通过私有渠道（如仓库的 Private vulnerability reporting / 直接联系维护者）报告，我们会尽快响应。
-- 本仓库不含密钥、个人信息或私有内容；提交前请对照目录收录条件自检。
+- 本仓库不含密钥、个人信息或私有内容。
