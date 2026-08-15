@@ -2,8 +2,6 @@
 
 > 一个**自举式「一切皆插件」编译器**：它本身是一个 DSH 插件，用来研发插件，并能被其它插件扩展。
 
-[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
-
 ---
 
 ## Overview
