@@ -1,0 +1,43 @@
+{
+  "name": "dsh-foundry",
+  "version": "0.1.0",
+  "description": "Plugin Foundry — a self-extending, everything-is-a-plugin compiler for DeepSeek Harness. Ships a blueprint registry (scaffold → validate → deploy) as a runtime Service, three model tools, and a blueprint-gallery settings page.",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "meta-plugin",
+    "plugin-compiler",
+    "blueprint",
+    "extensibility"
+  ],
+  "dsh": {
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-slots"
+      ]
+    },
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/dsh-tools": "^0.1.0-rc.6"
+  }
+}
