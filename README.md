@@ -1,5 +1,8 @@
 # dsh-foundry · Plugin Foundry（插件铸造厂）
 
+[![Awesome DSH Plugin](https://awesome-dsh-plugin.com/badge.svg)](https://awesome-dsh-plugin.com)
+
+
 > 一个**自举式「一切皆插件」编译器**：它本身是一个 DSH 插件，用来研发插件，并能被其它插件扩展。
 
 ---
